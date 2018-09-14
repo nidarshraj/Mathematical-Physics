@@ -79,6 +79,6 @@ int main(){
         value += looper*(y[0][i]);
         looper = looper * ((looper-i)/fact(i+1));
     }
-    cout << "\nValue of function at " << realX << " = " << value << "\n";
+    cout << "\nValue of function at " << realX << " = " << value << "\n\n";
     return 0;
 }
