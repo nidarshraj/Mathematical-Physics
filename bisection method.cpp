@@ -8,7 +8,7 @@ int main(){
     float a,b,c;
     cout << "Give the interval a, b : ";
     cin >> a >> b;
-    if(f(a)*f(b) > 0){
+    if(f(a)*f(b) >= 0){
         cout << "Not Valid \n";
         exit(0);
     }
