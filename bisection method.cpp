@@ -6,6 +6,7 @@ float f(float x){
 }
 int main(){
     float a,b,c;
+    int i=1;
     cout << "Give the interval a, b : ";
     cin >> a >> b;
     if(f(a)*f(b) >= 0){
@@ -26,6 +27,8 @@ int main(){
             a = c;
         }
         c = (a+b)/2.0;
+        cout << i << "\t" << a << "\t" << b << "\t" << c << "\t" << f(c) << "\n";
+        i++;
     }
     cout << "\nThe Root of the Function = " << root << endl;
     return 0;
